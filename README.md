@@ -12,4 +12,4 @@ More information:
 - [References](recreating-printf/REFERENCES.md)
 
 ### recreating-scanf
-A recreation of the C `scanf` function also using variadic functions, this time I had to (kind of) recreate strcpy for strings inputs
+A recreation of the C `scanf` function also using variadic functions, this time I had to (kind of) recreate strcpy for string inputs
