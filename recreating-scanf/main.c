@@ -1,4 +1,5 @@
 #include <stdarg.h>
+// #include <stdio.h>
 
 int my_scanf(const char *fmtS, ...);
 char *my_strcpy(char *dest, const char* src);
@@ -6,7 +7,8 @@ char *my_strcpy(char *dest, const char* src);
 int main(){
 	char x[] = "Lorem Ipsum\n";
 	my_scanf("%s", &x, "Ipsum Lorem\n");
-	
+	// printf("x: %s", x);
+
 	return 0;
 }
 

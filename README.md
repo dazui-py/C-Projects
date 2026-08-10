@@ -10,3 +10,6 @@ A simple recreation of the C `printf` function using variadic functions and writ
 
 More information:
 - [References](recreating-printf/REFERENCES.md)
+
+### recreating-scanf
+A recreation of the C `scanf` function also using variadic functions, this time I had to (kind of) recreate strcpy for strings inputs
