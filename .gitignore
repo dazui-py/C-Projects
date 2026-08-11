@@ -1,3 +1,5 @@
 # My test files and outputs
 */tests.c
 */*.out
+contacts-list/data/
+docs-bot/
