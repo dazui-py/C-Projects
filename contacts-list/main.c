@@ -72,7 +72,7 @@ int main() {
           printf("Could not write contacts.txt");
         }
         else {
-          fprintf(pContacts, "#%d\nName: %s\nPhone: %s\nEmail: %s\n", j + 1, list[j].name, list[j].phone, list[j].email);
+          fprintf(pContacts, "#%d\nName: %sPhone: %sEmail: %s\n", j + 1, list[j].name, list[j].phone, list[j].email);
           fclose(pContacts);
         }
         j++;
